@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-VariableFont_wdthwght.ttf");
+}
+
+body {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(65,4,4,1) 40%, rgba(79,0,0,1) 50%, rgba(65,4,4,1) 60%, rgba(0,0,0,1) 100%);
+}
+
+div.title {
+    display: grid;
+    position: relative;
+    grid-template-columns: min-content max-content min-content;
+    width: min-content;
+    margin: 0 auto;
+    cursor: default;
+    & > span {
+        color: white;
+        font-family: "OpenSans";
+        font-weight: bolder;
+        font-size: 2em;
+    }
+    & > div.icon {
+        margin-left: 0.7em;
+        margin-top: 0.4em;
+        margin-right: 0.5em;
+        background: url("../favicon.png");
+        background-size: 2em;
+        background-repeat: no-repeat;
+        width: 2em;
+        height: 2em;
+    }
+}
+
+div.center {
+    display: block;
+    margin: 0 auto;
+    max-width: 60vw;
+    & > hr {
+        max-width: 50vw;
+        opacity: 0.2;
+    }
+    & > div.tree {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 1vh;
+        & > div {
+            display: grid;
+            grid-template-columns: 1fr min-content 1fr;
+            margin: 0 auto;
+            width: 50vw;
+            max-width: 50vw;
+            height: calc(5vw + 1vh);
+            background: rgba(0, 0, 0, 0.75);
+            border-radius: calc(15px + 1vw);
+            align-content: center;
+            cursor: pointer;
+            transition: 2s;
+            & > div {
+                width: 1px;
+                height: 4vw;
+                margin: 2vw auto;
+                background-color: white;
+                opacity: 0.5;
+            }
+            & > span {
+                color: white;
+                font-family: "OpenSans";
+                margin: 2vw auto;
+                width: fit-content;
+                font-size: 2.5vw;
+                align-content: center;
+            }
+            & > p {
+                display: block;
+                color: white;
+                font-family: "OpenSans";
+                margin: 2vw auto;
+                align-content: center;
+                font-size: 1.5vw;
+                text-align: center;
+                width: max-content;
+            }
+        }
+        & > div:hover {
+            background: linear-gradient(90deg, rgba(0,149,26,0.75) 0%, rgba(0,0,0,0.75) 60%);
+        }
+    }
+}
