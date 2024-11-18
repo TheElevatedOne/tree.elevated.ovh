@@ -8,6 +8,14 @@ export const links = [
         type: "assets/folder-network.svg"
     },
     {
+        name: "Mail",
+        link: 
+"mailto:admin@elevated.ovh",
+        image: 
+"assets/internet-mail.svg",
+        type: "assets/folder-mail.svg"
+    },
+    {
         name: "Vape Mixes & Recipes",
         link: 
 "https://vape.elevated.ovh",

@@ -195,6 +195,15 @@ a {
     color: white;
 }
 
+.link:nth-child(12) {
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #020000;
+    color: white;
+}
+
+
 .link:hover {
     filter: drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.2));
     transform: scale(1.05);
