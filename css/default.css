@@ -241,3 +241,15 @@ a {
         transform: scale(1.01);
     }
 }
+
+.footer {
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    font-size: smaller;
+    & > span.source {
+        font-weight: 600;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
