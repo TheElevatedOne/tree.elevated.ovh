@@ -40,6 +40,12 @@ export const links = [
         type: "assets/edit-link.svg"
     },
     {
+        name: "hr",
+        link: "Art",
+        image: "",
+        type: ""
+    },
+    {
         name: "CivitAI",
         link: 
 "http://civitai.elevated.ovh",
@@ -56,9 +62,23 @@ export const links = [
         type: "assets/edit-link.svg"
     },
     {
+        name: "hr",
+        link: "Music",
+        image: "",
+        type: ""
+    },
+    {
+        name: "ELEVΛTED Music",
+        link: 
+"https://music.elevated.ovh",
+        image: 
+"assets/music.svg",
+        type: "assets/folder-network.svg"
+    },
+    {
         name: "Bandcamp",
         link: 
-"http://bandcamp.elevated.ovh",
+"http://music.elevated.ovh/bandcamp",
         image: 
 "assets/bandcamp.svg",
         type: "assets/edit-link.svg"
@@ -66,17 +86,9 @@ export const links = [
     {
         name: "Soundcloud",
         link: 
-"http://sound.elevated.ovh",
+"http://music.elevated.ovh/soundcloud",
         image: 
 "assets/soundcloud.svg",
-        type: "assets/edit-link.svg"
-    },
-    {
-        name: "Youtube",
-        link: 
-"http://yt.elevated.ovh",
-        image: 
-"assets/yt.svg",
         type: "assets/edit-link.svg"
     },
     {
@@ -85,6 +97,20 @@ export const links = [
 "http://ytm.elevated.ovh",
         image: 
 "assets/ytm.svg",
+        type: "assets/edit-link.svg"
+    },
+    {
+        name: "hr",
+        link: "Other",
+        image: "",
+        type: ""
+    },
+    {
+        name: "Youtube",
+        link: 
+"http://yt.elevated.ovh",
+        image: 
+"assets/yt.svg",
         type: "assets/edit-link.svg"
     },
     {

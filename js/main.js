@@ -12,6 +12,14 @@ function addLink(name, link, image, type) {
   `;
 }
 
+function addHr(link) {
+  return `
+  <hr class="divider">
+  <span class="divider">${link}</span>
+  <hr class="divider">
+  `
+}
+
 let allLinks = "";
 
 links.forEach((ele) => {
@@ -20,7 +28,11 @@ links.forEach((ele) => {
     let image = ele.image;
     let type = ele.type;
 
-    allLinks += addLink(name, link, image, type);
+    if (name == "hr") {
+      allLinks += addHr(link);
+    } else {
+      allLinks += addLink(name, link, image, type);
+    }
 });
 
 linkContainer.innerHTML = allLinks;

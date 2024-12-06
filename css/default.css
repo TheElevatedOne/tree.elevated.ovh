@@ -90,6 +90,20 @@ a {
     }
 }
 
+hr.divider {
+    margin: 10px auto;
+    width: 95%;
+    border: 2.5px solid white;
+    border-radius: 5px;
+}
+
+span.divider {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
 .link span {
     width: 80%;
     text-align: center;
@@ -147,7 +161,7 @@ a {
     color: white;
 }
 
-.link:nth-child(6) {
+.link:nth-child(9) {
     background: linear-gradient(90deg,
             rgba(241, 241, 241, 0.1) 30%,
             rgba(113, 113, 113, 0.3) 100%),
@@ -155,7 +169,7 @@ a {
     color: white;
 }
 
-.link:nth-child(7) {
+.link:nth-child(10) {
     background: linear-gradient(90deg,
             rgba(241, 241, 241, 0.1) 30%,
             rgba(113, 113, 113, 0.3) 100%),
@@ -163,7 +177,7 @@ a {
     color: white;
 }
 
-.link:nth-child(8) {
+.link:nth-child(14) {
     background: linear-gradient(90deg,
             rgba(241, 241, 241, 0.1) 30%,
             rgba(113, 113, 113, 0.3) 100%),
@@ -171,7 +185,7 @@ a {
     color: white;
 }
 
-.link:nth-child(9) {
+.link:nth-child(15) {
     background: linear-gradient(90deg,
             rgba(241, 241, 241, 0.1) 30%,
             rgba(113, 113, 113, 0.3) 100%),
@@ -179,7 +193,7 @@ a {
     color: white;
 }
 
-.link:nth-child(10) {
+.link:nth-child(16) {
     background: linear-gradient(90deg,
             rgba(241, 241, 241, 0.1) 30%,
             rgba(113, 113, 113, 0.3) 100%),
@@ -187,7 +201,7 @@ a {
     color: white;
 }
 
-.link:nth-child(11) {
+.link:nth-child(17) {
     background: linear-gradient(90deg,
             rgba(241, 241, 241, 0.1) 30%,
             rgba(113, 113, 113, 0.3) 100%),
@@ -195,11 +209,19 @@ a {
     color: white;
 }
 
-.link:nth-child(12) {
+.link:nth-child(21) {
     background: linear-gradient(90deg,
             rgba(241, 241, 241, 0.1) 30%,
             rgba(113, 113, 113, 0.3) 100%),
         #020000;
+    color: white;
+}
+
+.link:nth-child(22) {
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #000000;
     color: white;
 }
 
