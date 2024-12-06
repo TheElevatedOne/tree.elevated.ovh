@@ -68,7 +68,7 @@ export const links = [
         type: ""
     },
     {
-        name: "ELEVΛTED Music",
+        name: "ELEVɅTED Music",
         link: 
 "https://music.elevated.ovh",
         image: 
