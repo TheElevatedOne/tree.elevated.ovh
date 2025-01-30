@@ -18,7 +18,7 @@ export const links = [
     {
         name: "CV / Resume",
         link: 
-"https://resume.elevated.ovh",
+"http://resume.elevated.ovh",
         image: 
 "assets/libreoffice-writer.svg",
         type: "assets/folder-network.svg"
