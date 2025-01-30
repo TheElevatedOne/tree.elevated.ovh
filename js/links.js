@@ -16,6 +16,14 @@ export const links = [
         type: "assets/folder-mail.svg"
     },
     {
+        name: "CV / Resume",
+        link: 
+"https://resume.elevated.ovh",
+        image: 
+"assets/libreoffice-writer.svg",
+        type: "assets/folder-network.svg"
+    },
+    {
         name: "Vape Mixes & Recipes",
         link: 
 "https://vape.elevated.ovh",
